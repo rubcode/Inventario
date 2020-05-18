@@ -1,0 +1,155 @@
+
+/**************************GENERALES***************************/
+body
+{
+	display: flex;
+	display: -ms-flexbox; 
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #eeeeee;
+}
+main
+{
+	flex:1 0 auto;
+	-ms-flex: 1 0 auto;
+}
+.mymenu
+{
+	min-height: 80vh;
+}
+.myblue
+{
+	background-color: #1976D2 !important;
+}
+.mybluetext
+{
+	color:#1976D2;
+}
+.grey
+{
+	background-color: #455A64 !important;
+}
+#mainlogin
+{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-size: no-repeat;
+}
+.pnllogin
+{
+	max-width: 450px;
+	height: 400px;
+	border: solid 2px;
+	border-color: #1976D2;
+	margin-top: 10vh;
+	background-color: white;
+	margin-bottom: 10vh;
+}
+.pnlheader
+{
+	margin: 0 !important;
+	height: 50px;
+}
+.titleheaderlogin
+{
+	margin: 0 !important;
+}
+.pnlbody
+{
+	padding: 10px;
+}
+.rowsm
+{
+	margin: 0 !important;
+}
+#mensajeadd, #mensaje, #mensajeupd, #mensajedel
+{
+	display: none;
+}
+/***********************************FORMULARIOS************************************/
+.mytexttabs
+{
+	color: #1976D2 !important;
+}
+.tabs .indicator
+{
+	background-color: #1976D2 !important;
+}
+.tabs
+{
+	background-color: #eeeeee !important;
+}
+#mainformularios
+{
+	background-image: url("../img/desktop1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.pnlformulario
+{
+	background-color: white;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.19);
+	padding: 20px !important;
+	margin-top: 7vh;
+	margin-bottom: 7vh;
+
+}
+.mybtnfloating
+{
+	margin-top: 10px;
+}
+.myfloating
+{
+	margin-right: 5px;
+}
+.dropdown-content li > span
+{
+	color: #1976D2;
+}
+/***************************************REPORTES***************************************/
+.pnltablesreportes, #btngenerarcarta
+{
+	display: none;
+}
+#lblfecha
+{
+	padding: 10px;
+}
+/*************************************MODALES*******************************************/
+
+.mymodal
+{
+	width: 25%;
+}
+.mymodallarge
+{
+	width: 45%;
+}
+/*****************************MEDIA QUERIES*********************************/
+@media (max-width: 1500px)
+{
+	.mymodal
+	{
+		width: 40%;
+	}
+}
+
+@media (max-width: 992px)
+{
+	.mymodal, .mymodallarge
+	{
+		width: 60%;
+	}
+}
+@media (max-width: 600px)
+{
+	.mymodal, .mymodallarge
+	{
+		width: 80%;
+	}
+	.pnlformulario
+	{
+		margin-top: 0vh;
+		margin-bottom: 2vh;
+	}
+}
